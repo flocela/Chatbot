@@ -50,6 +50,7 @@ public:
     void SendMessageToChatbot(std::string message);
     void SendMessageToUser(std::string message);
     wxBitmap *GetImageFromChatbot();
+    
 };
 
 #endif /* CHATLOGIC_H_ */
